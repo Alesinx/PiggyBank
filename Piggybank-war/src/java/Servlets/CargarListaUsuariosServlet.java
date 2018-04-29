@@ -1,4 +1,5 @@
-/*
+/*Autor: Alberto Cazorla Suárez
+ *
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -42,7 +43,7 @@ public class CargarListaUsuariosServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         
         List<Usuario> listaUsuarios = this.usuarioFacade.findAll();
-        request.setAttribute("listaUsuario", listaUsuarios);
+        request.setAttribute("listaUsuarios", listaUsuarios);
         
         RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/listaUsuarios.jsp");
         rd.forward(request, response);
