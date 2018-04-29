@@ -20,7 +20,7 @@
  
             
              <table>
-                <th>Cuenta de <%= user.getNombre() %></th>
+                <th>Cuenta de <%= user.getNombre() %> <br/></th>
                 <tr>
                 <td><b>Nombre: </b></td><td><%= user.getNombre() %> <%= user.getApellido1() %> <%= user.getApellido2() %><br/></td>
                 </tr>
