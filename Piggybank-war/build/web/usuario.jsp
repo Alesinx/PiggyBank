@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Pagina principal</title>
+        <title>Pagina de usuario</title>
         <%
             Usuario user= (Usuario)session.getAttribute("usuario");
         %>
